@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "handsomedose/fec-capstone",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "3030"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
